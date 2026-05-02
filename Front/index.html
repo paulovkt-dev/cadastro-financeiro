@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onboarding Financeiro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <div class="side">
+    <h1>Fintech Pro</h1>
+    <p>Plataforma segura para gestão financeira e vendas</p>
+
+    <div class="features">
+      <div>✔ Segurança bancária</div>
+      <div>✔ Integração com vendas</div>
+      <div>✔ Controle em tempo real</div>
+    </div>
+  </div>
+
+  <div class="form-area">
+    <div class="card">
+      <h2>Abrir Conta</h2>
+
+      <form id="formCadastro">
+        <div class="row">
+          <input type="text" id="nome" placeholder="Nome completo" required>
+          <input type="text" placeholder="CPF" required>
+        </div>
+
+        <div class="row">
+          <input type="email" id="email" placeholder="Email" required>
+          <input type="tel" placeholder="Telefone" required>
+        </div>
+
+        <div class="row">
+          <input type="text" placeholder="Banco" required>
+          <input type="text" placeholder="Agência" required>
+        </div>
+
+        <input type="text" placeholder="Conta" required>
+        <input type="password" id="senha" placeholder="Senha segura" required>
+
+        <button type="submit">Continuar</button>
+      </form>
+
+      <div class="msg" id="msg"></div>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
